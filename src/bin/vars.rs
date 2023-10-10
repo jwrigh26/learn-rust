@@ -161,4 +161,31 @@ fn main() {
         format!("{}", six_point_four).yellow(),
         format!("{}", one).blue()
     );
+
+    // ARRAYS
+    // --------------------
+    // An array is a collection of multiple values of the same type.
+    println!("{}", "ARRAYS".blue().bold());
+    let a = [1, 2, 3, 4, 5];
+    println!(
+        "The value of a is: {}",
+        format!("{:?}", a).green()
+    );
+    let first  = a[0];
+    let second = a[1];
+    let third  = a[2];
+
+    println!(
+        "The value of first, second, third is: {}, {}, {}",
+        format!("{}", first).green(),
+        format!("{}", second).yellow(),
+        format!("{}", third).blue()
+    );
+
+    let b = [0; 5]; // b = [0, 0, 0, 0, 0]
+    println!(
+        "The value of b is: {}",
+        format!("{:?}", b).green()
+    );
+
 }
