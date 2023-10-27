@@ -1,6 +1,9 @@
 # Notes on Rust
+Please run a specific example with cargo run --bin <example>
 
+## Again...That is...
 cargo run --bin <example>
+
 
 ## Maintenance:
 
